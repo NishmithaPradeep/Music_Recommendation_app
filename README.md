@@ -1,2 +1,3 @@
 # Music_Recommendation_app
-Created with CodeSandbox
+
+A small music recommendation app using reactJS, jsx
