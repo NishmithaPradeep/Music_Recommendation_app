@@ -5,33 +5,54 @@ const song = {
   Jazz: [
     {
       name: "Clicked on romance",
+      description: "Released in 2022 by Ori Dagan",
       rating: "4.4/5"
     },
     {
       name: "Thanks you willie",
+      description: "Released in 2022 by Nestor",
       rating: "4.2/5"
+    },
+    {
+      name: "Take Five",
+      description: "Released in 2019 by Dave Brubeck",
+      rating: "4.0/5"
     }
   ],
 
   English: [
     {
-      name: "I do by 911",
+      name: "I do",
+      description: "Released in 2013 by the 911",
       rating: "4.4/5"
     },
     {
       name: "Love me like you do ",
+      description: "Released in 2015 by Ellie Goulding",
       rating: "4.3/5"
+    },
+    {
+      name: "Perfect",
+      description: "Released in 2017 by Ed Shereen",
+      rating: "4.4/5"
     }
   ],
 
   Rock: [
     {
-      name: "Monsters by All time Low",
+      name: "Monsters",
+      description: "Released in 2020 by all time low",
       rating: "4.1/5"
     },
     {
-      name: "Atlas Falls by Shinedown",
+      name: "Atlas Falls",
+      description: "Released in 2020 by shinetown",
       rating: "4.0/5"
+    },
+    {
+      name: "Purple Haze",
+      description: "Released in 1967 by Gimme Hendrix",
+      rating: "4.2/5"
     }
   ]
 };
@@ -79,6 +100,7 @@ export default function App() {
             >
               {" "}
               <div style={{ fontSize: "larger" }}> {song.name} </div>
+              <div style={{ fontSize: "small" }}> {song.description} </div>
               <div style={{ fontSize: "smaller" }}> {song.rating} </div>
             </li>
           ))}
@@ -87,3 +109,4 @@ export default function App() {
     </div>
   );
 }
+
